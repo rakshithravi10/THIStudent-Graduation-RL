@@ -52,7 +52,7 @@ def train_q_learning(env,
     print(f"Success rate: {success_count}/{no_episodes}")
 
 
-def visualize_q_table(blockers=[(1, 3), (2, 3), (3, 3), (4, 5), (6, 2), (7, 1)],
+def visualize_q_table(blockers=[(0, 3), (2, 1), (3, 7), (3, 4), (6, 3), (5, 0)],
                       goal_state=(6, 6),
                       actions=["Up", "Down", "Left", "Right"],
                       q_values_path="q_table.npy",
